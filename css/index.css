@@ -58,18 +58,20 @@ body {
 }
 
 .images-container {
-  width: 900px;
+  width: 90%;
   margin: 90px auto;
-  padding: 40px;
+  padding: 20px;
   background-color: #ccc;
   object-fit: cover;
+  max-width: 900px;;
 }
 
 .image-grid img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 0%;
+  display: block;
 }
 
 .image-grid {
