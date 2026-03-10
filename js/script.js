@@ -17,12 +17,17 @@ function displayGithub() {
 
 let macButton = document.querySelector(".mac-button");
 let windowsButton = document.querySelector(".windows-button");
+let githubButton = document.querySelector(".github-button");
 
 if(macButton) {
   macButton.addEventListener("click", displayGithub);
 }
 
 if(windowsButton) {
+  windowsButton.addEventListener("click", displayGithub);
+}
+
+if(githubButton) {
   windowsButton.addEventListener("click", displayGithub);
 }
 
