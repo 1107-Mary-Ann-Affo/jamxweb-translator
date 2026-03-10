@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(){
+
 function goToDownloadpage() {
   window.location.href = "download.html";
 }
@@ -24,3 +26,4 @@ if(windowsButton) {
   windowsButton.addEventListener("click", displayGithub);
 }
 
+});
