@@ -183,4 +183,49 @@
         margin-bottom: 10px;
         font-family: "Audiowide", cursive;
       }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #082140;
+  z-index: 900;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+nav a {
+  color: #0ff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #0ff;
+  transition: 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #0ff;
+  text-shadow:
+    0 0 8px #0ff,
+    0 0 15px #0ff;
+}
  
