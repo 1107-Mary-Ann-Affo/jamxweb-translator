@@ -19,6 +19,18 @@ body {
   color: #d3d3d3;
   font-size: 18px;
   font-weight: bold;
+  margin: 160px auto 5px auto;
+  max-width: 800px;
+  padding: 0 20px;
+  line-height: 1.5;
+  font-family: "Exo 2", sans-serif;
+}
+
+.support2 {
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 18px;
+  font-weight: bold;
   margin: 5px auto 5px auto;
   max-width: 800px;
   padding: 0 20px;
@@ -27,22 +39,24 @@ body {
 }
 
 .firstButton {
-  padding: 20px 30px;
-  margin: 20px auto;
+  padding: 15px 25px;
+  margin: 30px auto;
   display: block;
   border: 1px solid black;
-  border-radius: 0px;
-  background: lightblue;
+  border-radius: 35px;
+  background: white;
   color: black;
   font-size: 18px;
   max-height: 100px;
+  font-weight: bold;
+  font-family: "Russo One", sans-serif;
 }
 
 .firstButton:hover {
   transition: all 150ms ease-in-out;
   cursor: pointer;
-  background: white;
-  color: pink;
+  background: black;
+  color: #ff00ff;
 }
 
 .description {
@@ -61,7 +75,10 @@ body {
   width: 90%;
   margin: 60px auto;
   padding: 20px;
-  background-color: #ccc;
+  background-color: rgba(5, 5, 5, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   object-fit: cover;
   max-width: 1200px;
 }
@@ -82,7 +99,7 @@ body {
 
 hr {
   border: 1px solid #00ffff;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 nav {
@@ -128,4 +145,83 @@ nav a:hover {
   text-shadow:
     0 0 8px #0ff,
     0 0 15px #0ff;
+}
+
+.index-description {
+  font-style: italic;
+  font-size: 25px;
+  line-height: 1.2;
+  padding: 10px 5px;
+  margin: 20px auto;
+  max-width: 1000px;
+  background: linear-gradient(90deg, #08f, rgb(203, 46, 231), #0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-size: 200% 200%;
+  animation: gradientShift 5s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  max-width: 1200px;
+  background-color: rgba(15, 18, 34, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.feature-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: "Press Start 2P", cursive;
+  color: #ff00ff;
+  text-align: center;
+  text-orientation: mixed;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  color: #00ffff;
+  line-height: 1.5;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  flex: 1;
 }

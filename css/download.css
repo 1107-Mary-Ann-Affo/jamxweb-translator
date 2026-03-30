@@ -16,22 +16,25 @@ body {
 
 .mac-button,
 .windows-button {
-  padding: 15px 25px;
-  margin: 10px auto;
+  padding: 15px 15px;
+  margin: 30px auto;
   display: block;
   border: 1px solid black;
-  border-radius: 25px;
-  background: lightblue;
+  border-radius: 35px;
+  background: white;
   color: black;
-  font-size: 16px;
+  font-size: 12px;
+  max-height: 100px;
+  font-weight: bold;
+  font-family: "Russo One", sans-serif;
 }
 
 .mac-button:hover,
 .windows-button:hover {
   transition: all 150ms ease-in-out;
   cursor: pointer;
-  background: white;
-  color: pink;
+  background: black;
+  color: #ff00ff;
 }
 
 .note {

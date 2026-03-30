@@ -28,7 +28,7 @@ if(windowsButton) {
 }
 
 if(githubButton) {
-  windowsButton.addEventListener("click", displayGithub);
+  githubButton.addEventListener("click", displayGithub);
 }
 
 });
