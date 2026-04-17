@@ -19,9 +19,9 @@ body {
   color: #d3d3d3;
   font-size: 18px;
   font-weight: bold;
-  margin: 160px auto 5px auto;
+  margin: 0px auto 5px auto;
   max-width: 800px;
-  padding: 0 20px;
+  padding: 0px;
   line-height: 1.5;
   font-family: "Exo 2", sans-serif;
 }
@@ -40,7 +40,7 @@ body {
 
 .firstButton {
   padding: 15px 25px;
-  margin: 30px auto;
+  margin: 20px auto;
   display: block;
   border: 1px solid black;
   border-radius: 35px;
@@ -218,11 +218,73 @@ nav a:hover {
 .feature-list {
   list-style: none;
   padding: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: #00ffff;
   line-height: 1.5;
   font-family: "Exo 2", sans-serif;
   text-align: center;
   font-weight: bold;
   flex: 1;
+}
+
+.video-player {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+summary, details {
+  padding: 0;
+  font-size: 18px;
+  color: #d3d3d3;
+  line-height: 1.5;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  flex: 1;
+}
+
+.how-it-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px auto;
+  max-width: 90%;
+  padding: 20px;
+}
+
+.how-it-works-heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: "Press Start 2P", cursive;
+  color: #ff00ff;
+  text-align: center;
+  text-orientation: mixed;
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.how-it-works-list {
+  list-style: none;
+  padding: 40px;
+  font-size: 18px;
+  color: #00ffff;
+  line-height: 1.5;
+  font-family: "Exo 2", sans-serif;
+  text-align: left;
+  font-weight: bold;
+  flex: 1;
+}
+
+.how-it-works-list li::before {
+  content: "•";
+  color: #00ffff;
+  font-weight: bold;
+  margin-right: 10px;
 }

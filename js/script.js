@@ -12,7 +12,7 @@ if(downloadButton) {
 
 function displayGithub() {
   window.location.href =
-    "https://github.com/JohnnieM-CS426/GameTranslationTool";
+    "https://github.com/1001-Galela-Amiel/JamX-Translator";
 }
 
 let macButton = document.querySelector(".mac-button");
